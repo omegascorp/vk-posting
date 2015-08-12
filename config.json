@@ -2,5 +2,6 @@
     "accessToken": "",
     "tags": "",
     "groupId": "",
-    "userId": ""
+    "userId": "",
+    "period": 60
 }
