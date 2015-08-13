@@ -96,7 +96,7 @@ def uploadRandomPost(path):
     print(random.randint(0,len(images)-1))
     image = images[random.randint(0,len(images)-1)]
     if data['lastPublishDate'] < int(time.time()):
-        data['lastPublishDate'] = int(time.time())
+        data['lastPublishDate'] = int(time.time()) + 600
     else:
         data['lastPublishDate'] += 60 * config['period'];
 
